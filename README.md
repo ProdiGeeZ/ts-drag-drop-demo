@@ -14,7 +14,7 @@ This is a vanilla TypeScript web project that allows you to create and manage a 
 
 ### Prerequisites
 
-To run this project, you need a live server to serve the files locally. You can use any live server tool, such as the Live Server extension for Visual Studio Code.
+To run this project, you need a live server to serve the files locally. You can use any live server tool, such as the `Live Server` extension for Visual Studio Code.
 
 ### Installation
 
