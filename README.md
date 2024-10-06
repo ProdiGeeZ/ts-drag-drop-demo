@@ -2,6 +2,8 @@
 
 This is a vanilla TypeScript web project that allows you to create and manage a project list using drag and drop functionality.
 
+[More on Drag & Drop Features in Web Development](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
+
 ## Features
 
 - Drag and drop to reorder projects
