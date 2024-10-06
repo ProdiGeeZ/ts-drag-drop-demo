@@ -63,7 +63,19 @@
     "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
   },
+  "files": [
+    "./src/models/drag-drop.ts",
+    "./src/models/project.ts",
+    "./src/state/project-state.ts",
+    "./src/utils/validation.ts",
+    "./src/decorators/autobind.ts",
+    "./src/components/base-component.ts",
+    "./src/components/project-item.ts",
+    "./src/components/project-list.ts",
+    "./src/components/project-input.ts",
+    "./src/app.ts"
+  ],
   "exclude": [
     "node_modules" // would be the default
-  ]
+  ],
 }
