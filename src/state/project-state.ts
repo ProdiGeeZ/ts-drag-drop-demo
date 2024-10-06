@@ -31,7 +31,7 @@ namespace App {
             console.log(App.ProjectStatus); 
             console.log(App.ProjectStatus.Active); 
 
-            const newProject = new Project(Math.random.toString(), title, description, numOfPeople, App.ProjectStatus.Active);
+            const newProject = new Project(Math.random().toString(), title, description, numOfPeople, App.ProjectStatus.Active);
             this.projects.push(newProject);
             for (const listenerFn of this.listeners) {
                 listenerFn(this.projects.slice());
@@ -42,8 +42,8 @@ namespace App {
             const project = this.projects.find((prj) => prj.id === projectId);
             if (project && project.status !== newStatus) {
                 project.status = newStatus;
+                this.updateListeners();
             }
-            this.updateListeners();
         }
 
         private updateListeners() {
